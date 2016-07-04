@@ -4,13 +4,12 @@ using namespace std;
 
 int main()
 {
-    int value{10}, sum{0};
+    int value{10};
 
     while(value >=0 )
     {
-        sum += value;
+        cout << value <<endl;
         value --;
     }
-    cout << "The sum is:" << sum << endl;
     return 0;
 }
