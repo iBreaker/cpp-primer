@@ -51,3 +51,11 @@ int main()
 The sum is:0
 ```
 >answer：-100 到 100 的累加，终值是0
+
+##Exercise 1.14
+>对比`for`循环和`while`循环。两种形式的优点和缺点是什么
+
+* for循环：
+    * for循环注重循环次数
+* while循环：
+    * while循环适合不清楚循环次数的情况
