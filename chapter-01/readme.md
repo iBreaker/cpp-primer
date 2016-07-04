@@ -27,7 +27,7 @@ ex1_07.cpp:9:5: error: expected primary-expression before ‘return’
 ex1_07.cpp:9:5: error: expected ‘;’ before ‘return’
 ```
 
-##Exercise 1.7
+##Exercise 1.8
 >下面的for循环完成了什么功能？sum的终值是多少？
 
 ```cpp
