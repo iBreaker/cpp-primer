@@ -6,7 +6,8 @@ int main()
 {
     Sales_item total_si, si;
 
-    cin >> total_si;
+    if (!(cin >> total_si))
+        return -1;
     while(cin >> si && si.isbn() == total_si.isbn())
     {
         total_si += si;
