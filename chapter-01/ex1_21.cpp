@@ -9,7 +9,7 @@ int main()
 
     cin >> si1 >> si2;
 
-    if(si1 == si2)
+    if(si1.isbn() == si2.isbn())
     {
         Sales_item si = si1 + si2;
         cout << si << endl;
