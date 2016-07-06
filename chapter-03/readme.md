@@ -7,3 +7,15 @@
     vector<string> svec(10, "null");    //正确，10个null字符串
 ```
 
+##Exercise 3.13
+>下列vector元素各包含多少元素，这些元素的值分别是多少？
+
+```cpp
+    vector<int> v1;             //0个
+    vector<int> v2(10);         //10个, 都为0
+    vector<int> v3(10, 42);     //10个, 都为42
+    vector<int> v4{10};         //1个, 10
+    vector<int> v5{10, 42};     //2个, 10, 42
+    vector<string> v6{10};      //10个空字符串 
+    //注意：提供的值不能用来初始化元素的时候，编译器使用默认值
+    vector<string> v1{10, "hi"};//10个, "hi"
