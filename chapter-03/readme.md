@@ -19,3 +19,14 @@
     vector<string> v6{10};      //10个空字符串 
     //注意：提供的值不能用来初始化元素的时候，编译器使用默认值
     vector<string> v1{10, "hi"};//10个, "hi"
+
+##Exercise 3.18
+>下面的程序合法吗？如果不合法，你准备怎么修改？
+```cpp
+vector<int> ivec;
+ivec[0] = 42;       //错误，不能通过下标的形式添加元素
+```
+```cpp
+vector<int> ivec;
+ivec.push_back(42);       
+```
