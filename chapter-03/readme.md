@@ -77,4 +77,20 @@ for(array_size ix = 1; ix <= array_size; ++ix)
 ```
 
 
+##Exercise 3.33
+>如果不初始化scores会发生什么
+
+```cpp
+unsigned scors[11] = {}; //初始化,如果不初始化程序会出现未知错误
+unsigned grade;
+while(cin  >> grade)
+{
+    if(grade <= 100)
+    {
+        ++scores[grade/10];
+    }
+}
+```
+
+
 
