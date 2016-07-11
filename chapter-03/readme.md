@@ -31,3 +31,9 @@ ivec[0] = 42;       //错误，不能通过下标的形式添加元素
 vector<int> ivec;
 ivec.push_back(42);       
 ```
+
+##Exercise 3.23
+>在100页的二分搜索程序中，为什么用的是mid = beg + (end - beg)/2,而非mid = (end + beg) / 2
+
+因为没有定义两个迭代器的加法，end + beg是不合法的
+
