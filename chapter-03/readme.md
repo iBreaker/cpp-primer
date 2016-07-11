@@ -100,4 +100,26 @@ p1 += p2 - p1; // 相当于 p1 = p2; p1 p2 合法的情况下合法
 ```
 
 
+##Exercise 3.37
+>下面程序是什么含义，输出结果是什么
+
+```cpp
+const char ca[] = {'h', 'e', 'l', 'l', 'o'};
+const char * cp = ca;
+
+while(*cp)
+{
+    cout << *cp <<endl;
+    cp ++;
+}
+ 
+```
+输出：
+h
+e
+l
+l
+o
+
+还是尽量不要这么用
 
