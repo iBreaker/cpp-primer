@@ -37,3 +37,13 @@ ivec.push_back(42);
 
 因为没有定义两个迭代器的加法，end + beg是不合法的
 
+
+##Exercise 3.27
+>架设txt_size是一个无参数的函数，他的返回值是int。请回答下列那个定义是非法的？为什么？
+
+unsigned buf_size = 1024;
+
+- [x] a.int ia[buf_size];
+- [X] b.int ia[4 * 7 - 14];
+- [ ] c.int ia[txt_size()];         //错误
+- [ ] d.char[11] = "fundamental";   //错误
