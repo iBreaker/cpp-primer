@@ -47,3 +47,18 @@ unsigned buf_size = 1024;
 - [X] b.int ia[4 * 7 - 14];
 - [ ] c.int ia[txt_size()];         //错误
 - [ ] d.char[11] = "fundamental";   //错误
+
+
+##Exercise 3.28
+>下列数组中元素的值是什么？
+
+```cpp
+string sa[10];  // 10个空字符串
+int ia[10];     // 10个0
+
+int main()
+{
+    string sa2[10];     // 10个空字符串
+    int ia2[10];        // undefined
+}
+```
