@@ -62,3 +62,19 @@ int main()
     int ia2[10];        // undefined
 }
 ```
+
+##Exercise 3.30
+>指出下面代码中的索引错误
+
+```cpp
+constexpr size_t array_size = 10;
+int ia[array_size];
+for(array_size ix = 1; ix <= array_size; ++ix)
+//数组下标越界，下标不能到10
+{
+    ia[ix] = ix;
+}
+```
+
+
+
